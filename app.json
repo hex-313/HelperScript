@@ -18,7 +18,10 @@
             "required": false},
         "HEROKU_API_KEY": {
             "description": "get a Heroku API key from http://dashboard.heroku.com/account",
-            "required": false}
+            "required": false},
+	"UPSTREAM_REPO": {
+	    "description": "In case you maintain a fork",
+	    "required": false}
     },
     "buildpacks": [
         {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
